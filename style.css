@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px solid orange;
+    background-color: black;
+    border-bottom:2px solid #F50207;
+    width: auto;
+    
+}
+.logo {
+    flex:30% ;
+}
+.busca {
+    flex:10% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid #F50207;
+    border-radius: 20px;
+}
+.pesquisa{
+    background: none;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: #F50207;
+}
+.btn-pesquisar{
+    
+}
+.btns {
+    flex:30% ;
+}
+.btns>a {
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid #F50207;
+    padding: 20px 20px;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.btns>a:hover{
+    background-color: #F50207;
+    border-radius: 20px;
+}
+.body{
+    background-color: #DDD;
+}
+.artigo-direito{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #F50207;
+    border-radius: 10px;
+    box-shadow: 1px 3px #777;
+    margin-top: 5%;
+}
+.img-artigo-drt{
+    flex: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.texto-artigo{
+    flex: 50%;
+    width: 100%;
+}
+.titulo-artigo {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+.texto {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #adadad;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.btn-texto{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F50207;
+    width: 250px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid  #adadad;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+}
